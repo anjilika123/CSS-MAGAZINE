@@ -1,33 +1,112 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Campus Chronicles</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="editor.html">Editor's Note</a>
-    <a href="articles.html">Articles</a>
-    <a href="updates.html">Updates</a>
-</nav>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
-<div class="cover">
-    <h1>Campus Chronicles</h1>
-    <h2>The Importance of Digital Citizenship</h2>
-    <p class="tagline">Building Responsible and Respectful Digital Leaders</p>
-    <p>Published: March 2026</p>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
 
-    <div class="card">
-        <h3>Inside This Issue</h3>
-        <p>Explore how digital citizenship shapes online behavior, protects privacy, promotes cyber safety, and empowers students to become responsible members of the digital world.</p>
-    </div>
-</div>
+body{
+    background: linear-gradient(to right, #001f3f, #003366);
+    color:white;
+}
 
-<footer>
-    © 2026 Campus Chronicles. All Rights Reserved.
-</footer>
+nav{
+    background:#000c1a;
+    padding:15px;
+    text-align:center;
+}
 
-</body>
-</html>
+nav a{
+    color:#66ccff;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:white;
+    text-shadow:0 0 10px #00ccff, 0 0 20px #00ccff;
+}
+
+h1, h2{
+    text-align:center;
+    margin:20px 0;
+    text-shadow:0 0 15px #00ccff;
+}
+
+.cover{
+    text-align:center;
+    padding:80px;
+}
+
+.tagline{
+    font-style:italic;
+    color:#99ddff;
+}
+
+.card{
+    background:#00264d;
+    margin:20px auto;
+    padding:30px;
+    width:80%;
+    border-radius:15px;
+    box-shadow:0 0 20px #0099ff;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 30px #00ccff;
+}
+
+.article p::first-letter{
+    font-size:40px;
+    font-weight:bold;
+    color:#00ccff;
+}
+
+.button{
+    display:inline-block;
+    padding:10px 20px;
+    background:#007acc;
+    color:white;
+    border-radius:10px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.button:hover{
+    background:#00ccff;
+    box-shadow:0 0 15px #00ccff;
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+    margin:15px 0;
+    transition:0.4s;
+}
+
+img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #00ccff;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000c1a;
+    margin-top:40px;
+}
+
+ul li{
+    margin:10px 0;
+}
+
+ul li::marker{
+    color:#00ccff;
+}
