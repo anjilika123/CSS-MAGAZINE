@@ -1,6 +1,12 @@
-body {
-    font-family: Georgia, serif;
+html, body {
+    height: 100%;
     margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
     background-color: white;
     color: #333;
 }
