@@ -108,3 +108,27 @@ iframe {
     max-width: 100%;
     border: 3px solid #b30000;
 }
+
+.profile {
+    display: flex;
+    align-items: center;
+    border: 1px solid #b30000;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.profile img {
+    width: 90px;        
+    height: 90px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 15px;
+    border: 2px solid #b30000;
+}
+
+.profile p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
